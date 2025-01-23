@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shishyarthi Home</title>
+    <meta name="description" content="Description of your page for SEO">
+    <meta name="keywords" content="keyword1, keyword2, keyword3">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}"> 
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <section>
+    <nav>
+        <div class="navbar">
+            <div class="nav-logo">
+                <img src="" alt="shishyarthi-logo">
+            </div>
+            <div class="nav-menus">
+                <ul>
+                    <a href=""><li id="cr">Home</li></a>
+                    <li id="students">Students Section
+                        <div class="student-sec">
+                            <ul>
+                        <a href=""><li>Menu1</li></a>
+                        <a href=""><li>Menu1</li></a>
+                        <a href=""><li>Menu1</li></a>
+                        <a href=""><li>Menu1</li></a>
+                            </ul>
+                        </div>
+                    </li>
+                    <li id="resources">Resources
+                        <div class="resources-sec">
+                            <ul>
+                        <a href=""><li>Menu1</li></a>
+                        <a href=""><li>Menu1</li></a>
+                        <a href=""><li>Menu1</li></a>
+                        <a href=""><li>Menu1</li></a>
+                            </ul>
+                        </div>
+                    </li>
+                    <a href=""><li id="facilities">Facilities
+                        <div class="facilities-sec">
+                            <ul>
+                        <a href=""><li>Menu1</li></a>
+                        <a href=""><li>Menu1</li></a>
+                        <a href=""><li>Menu1</li></a>
+                        <a href=""><li>Menu1</li></a>
+                            </ul>
+                        </div>
+                    </li></a>
+                    <a href=""><li>Feedback</li></a>
+                    <li><input type="search" placeholder="Search here..."></li>
+                    <a href=""><li>About Team</li></a>
+            </div>
+        </div>
+    </nav>
+</section>
+    <main>
+        <div class="home">
+            <div class="home-desc">
+                <h2><span>Shishyarthi </span> - Your Ultimate Student Companion</h2>
+                <p>Shishyarthi is a comprehensive online platform designed to empower students by providing solutions to their daily college-related challenges. Whether you're struggling with coursework, seeking study materials, or looking for guidance on academic issues, Shishyarthi is your one-stop destination. At Shishyarthi, we understand the unique challenges faced by students in their academic journey.</p>
+                <button>Get to know!</button>
+                <a href="#services"><button id="features-btn">Features</button></a>
+            </div>
+            <div class="home-img">
+                <img src={%static 'img/home.png'%}>
+            </div>
+        </div>
+        <div class="services" id="services">
+            <h2>Key-Features</h2>
+            <p>Shishyarthi provide following types of services and features for student!</p>
+            <div class="key-features">
+                <div class="feature-box">
+                    <h3>Student Migration Problem Solution</h3>
+                    <div class="feature-desc">
+                        <p>This module provides information and resources to help students navigate the challenges associated with relocating for studies, such as adapting to new cultures, finding local services, and understanding legal requirements.</p>
+                </div>
+            </div>
+            <div class="feature-box">
+                <h3>Student Learning Platform</h3>
+                <div class="feature-desc">
+                    <p>An integrated learning hub offering access to study materials, lectures, and tutorials across various subjects, enabling students to gain knowledge efficiently through diverse formats.</p>
+            </div>
+        </div>
+        <div class="feature-box">
+            <h3>Student Addiction Resolving Module</h3>
+            <div class="feature-desc">
+                <p>This feature addresses common student addictions (e.g., social media, gaming) and offers guidance, counseling, and self-help tools for overcoming these challenges and building healthier habits.
+                </p>
+        </div>
+        </div>
+        <div class="feature-box">
+            <h3>Student Career Guidance Using AI</h3>
+            <div class="feature-desc">
+                <p>An AI-driven advisor to help students explore career paths, identify potential job opportunities, and receive personalized advice based on their skills, interests, and academic performance.</p>
+        </div>
+    </div>
+    <div class="feature-box">
+                <h3>Student Language Learning Platform</h3>
+                <div class="feature-desc">
+                    <p>A language learning space offering interactive lessons, language immersion, and conversational practice in multiple languages to help students improve their communication skills globally.</p>
+            </div>
+        </div>
+        <div class="feature-box">
+            <h3>Mental Health Support:</h3>
+            <div class="feature-desc">
+                <p>A dedicated mental wellness module that provides access to mental health resources, self-care tools, and support options to ensure students maintain a healthy mental state throughout their studies.
+                </p>
+        </div>
+        </div>
+        <div class="feature-box">
+            <h3>Transportation Facilities Info</h3>
+            <div class="feature-desc">
+                <p>This section offers real-time updates on transportation services, including schedules, routes, and fare details to help students navigate local and long-distance travel effectively.
+                </p>
+        </div>
+        </div>
+        <div class="feature-box">
+            <h3>Student ChatHub</h3>
+            <div class="feature-desc">
+                <p>A collaborative chat platform where students can engage with peers, share knowledge, discuss coursework, and connect with others who have similar interests and goals.
+                </p>
+        </div>
+        </div>
+        <div class="feature-box">
+            <h3>Nutrition and Fitness</h3>
+            <div class="feature-desc">
+                <p> Provides personalized nutrition and fitness plans, healthy meal ideas, and wellness tips to encourage students to stay active and maintain a balanced lifestyle.
+                </p>
+        </div>
+        </div>
+        <div class="feature-box">
+            <h3>Dedicated AI for Emotional Support</h3>
+            <div class="feature-desc">
+                <p>An empathetic AI-powered companion that offers a safe space for students to express emotions, receive positive reinforcement, and access tools for stress management and emotional well-being.
+                </p>
+        </div>
+        </div>
+        <div class="feature-box">
+            <h3>Financial Support and Scholarship</h3>
+            <div class="feature-desc">
+                <p>A financial aid portal where students can access scholarship databases, grant information, and budgeting tips to help them manage educational expenses.
+                </p>
+        </div>
+        </div>
+        <div class="feature-box">
+            <h3>Part-time Job Opportunities</h3>
+            <div class="feature-desc">
+                <p>A curated job board tailored to student needs, showcasing part-time, internship, and freelance opportunities that align with their schedules and career goals.
+                </p>
+        </div>
+        </div>
+        <div class="feature-box">
+            <h3>Accommodation System</h3>
+            <div class="feature-desc">
+                <p>A centralized platform for finding affordable housing options, dormitories, or rentals near campuses, with details on pricing, amenities, and leasing procedures.
+                </p>
+        </div>
+        </div>
+        <div class="feature-box">
+            <h3>Accommodation System</h3>
+            <div class="feature-desc">
+                <p>A centralized platform for finding affordable housing options, dormitories, or rentals near campuses, with details on pricing, amenities, and leasing procedures.
+                </p>
+        </div>
+        </div>
+        <div class="feature-box">
+            <h3>Skills Development Programs</h3>
+            <div class="feature-desc">
+                <p>Offers a range of workshops, online courses, and certifications designed to help students build essential career skills, from coding and digital marketing to public speaking and project management.
+                </p>
+        </div>
+        </div>
+    </div>
+    </div>
+    </main>
+    <footer>
+        <center><h3>Follow us on</h3></center>
+        <div class="follow-us">
+            <img src={%static 'img/instagram.png'%} alt="instagram">
+            <img src={%static 'img/facebook.png'%} alt="facebook">
+            <img src={%static 'img/whatsapp.png'%} alt="whatsapp">
+        </div>
+        <div class="footer-quote">
+            <p id="moto">"Fueling growth, fostering resilience—your journey, our purpose."</p>
+            <p id="creators">Crafted with ❤️ by Team CAdictos</p>
+            <br>
+        </div>
+
+    </footer>
+</body>
