@@ -9,7 +9,6 @@
     box-sizing: border-box;
     font-size: 15px;
     font-family: myFam;
-    overflow-x: hidden;
 }
 
 html {
@@ -22,21 +21,27 @@ section nav .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px;
-    margin-top: 15px;
+    padding: 5px;
+    margin-top: 5px;
 }
 section nav .navbar .nav-logo {
-    width: 30%;
+    width: 50%;
 }
 .nav-logo {
     padding-left: 20px;
 }
+.nav-logo img{
+    width: 100px;
+    height: 70px;
+}
 .navbar .nav-menus {
-    width: 70%;
+    width: 50%;
+    margin-left: 5%;
 }
 
 .nav-menus ul {
     display: flex;
+    flex-wrap: wrap;
     column-gap: 25px;
     list-style: none;
 }
@@ -249,7 +254,7 @@ input::placeholder{
     width: 400px;
     cursor: pointer;
     border: 1px solid #FDEB82;
-    transition: transform 0.3s ease;
+    transition: transform 0.7s ease;
 }
 .feature-box h3{
     font-size: 18px;
